@@ -10,9 +10,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
 
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
 
 
-  <title>Document</title>
+  <title>News Search Yo!</title>
 </head>
 <body>
   <div class = "container">
@@ -27,21 +31,20 @@
     <h1>NEW YORK TIMES</h2>
 <form>
   <div class="form-group">
-      <label for="exampleInputEmail1">Search Terms</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <small id="emailHelp" class="form-text text-muted"></small>
+      <label for="Input">Search Terms</label>
+      <input type="Input" class="form-control" id="search">
     </div>
     <div class="form-group">
-    <label for="exampleSelect1">Number of Records to Review</label>
-    <select class="form-control" id="exampleSelect1">
+    <label for="recordNum">Number of Records to Review</label>
+    <select class="form-control" id="recordNum">
       <option>5</option>
       <option>10</option>
       <option>15</option>
       <option>20</option>
       <option>25</option>
     </select>
-    <label for="exampleSelect1">Start Year</label>
-    <select class="form-control" id="exampleSelect1">
+    <label for="years">Start Year</label>
+    <select class="form-control" id="years">
       <option>2000</option>
       <option>2001</option>
       <option>2002</option>
@@ -61,8 +64,8 @@
       <option>2016</option>
       <option>2017</option>
   </select>
-  <label for="exampleSelect1">End Year</label>
-  <select class="form-control" id="exampleSelect1">
+  <label for="years2">End Year</label>
+  <select class="form-control" id="years2">
     <option>2000</option>
     <option>2001</option>
     <option>2002</option>
@@ -87,7 +90,7 @@
 
     <button type="submit" class="btn btn-primary">Search</button>
   </form>
-  <button type="submit" class="btn btn-primary">Clear Results</button>
+  <button type="clear" class="btn btn-primary">Clear Results</button>
   </form>
 </div>
 
@@ -97,7 +100,8 @@
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="app.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+
 </body>
 </html>
