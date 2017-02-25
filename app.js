@@ -11,9 +11,9 @@ var endYear = "20161231"
 
 
 
-// $(".clearButton").on("click", function(event) {});
+// $("#clearButton").on("click", function(event) {});
 
-// $(".searchButton").on("click", function(event) {});
+$("#searchButton").on("click", function(event) {
 
 
 var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
@@ -35,5 +35,6 @@ $.ajax({
   throw err;
 });
 
+});
 
 });
